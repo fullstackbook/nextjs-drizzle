@@ -1,4 +1,4 @@
-import { NewUser, insertUser } from "@/db/db";
+import { NewUser, insertUser } from "@/lib/db";
 
 async function main() {
   const newUser: NewUser = {
